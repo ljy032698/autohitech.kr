@@ -1,0 +1,9 @@
+{% if board_list %}
+    <ul>
+        {% for board in board_list %}
+            <li><a href="/downloads/{{board.id}}/{{board.subject}}"></a></li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>게시글이 존재하지 않습니다.</p>
+{% endif %}
