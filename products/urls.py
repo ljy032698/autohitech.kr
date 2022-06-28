@@ -11,4 +11,5 @@ urlpatterns = [
     path('atg-es11/', views.atges11),
     path('atg-es12/', views.atges12),
     path('atg-es100/', views.atges100),
+    path('training-kit/', views.trainingkit),
 ]

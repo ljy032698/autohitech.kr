@@ -25,3 +25,6 @@ def atges12(request):
 
 def atges100(request):
     return render(request, 'products/atg-es100.html')
+
+def trainingkit(request):
+    return render(request, 'products/training-kit.html')
