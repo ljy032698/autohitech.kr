@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from .models import Board
 
 def index(request):
@@ -13,6 +13,7 @@ def detail(request, board_id):
     """
     downloads 내용 출력
     """
-    board = Board.objects.get(id=board_id)
+    # board = Board.objects.get(id=board_id)
+    board = get_object_or_404(Board, pk=board_id)
     context = {'board': board}
     return render(request, 'downloads/board_detail.html', context)
