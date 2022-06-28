@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 def index(request):
     # return HttpResponse("Hello Products")
-    return render(request, 'products/atc-sda.html')
+    return render(request, 'products/product_list.html')
 
 def atcsda(request):
     return render(request, 'products/atc-sda.html')
