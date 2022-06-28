@@ -90,18 +90,18 @@ en: &DEFAULT_EN
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+      - title: "autobase"
+        url: http://autobase.biz
+        logo: assets/img/clients/autobase.png
+      - title: "a-technology"
+        url: http://atech.biz
+        logo: assets/img/clients/a-technology.png
+      - title: "ls electric"
+        url: https://www.ls-electric.com
+        logo: assets/img/clients/ls_electric.png
+      - title: "system base"
+        url: https://www.sysbas.com
+        logo: assets/img/clients/system_base.png
 
   team:
     title: "팀소개"
@@ -239,18 +239,18 @@ es: &DEFAULT_ES
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+      - title: "autobase"
+        url: http://autobase.biz
+        logo: assets/img/clients/autobase.png
+      - title: "a-technology"
+        url: http://atech.biz
+        logo: assets/img/clients/a-technology.png
+      - title: "ls electric"
+        url: https://www.ls-electric.com
+        logo: assets/img/clients/ls-electric.png
+      - title: "system base"
+        url: https://www.sysbas.com
+        logo: assets/img/clients/system-base.png
 
   team:
     title: "NUESTRO INCREÍBLE EQUIPO"
