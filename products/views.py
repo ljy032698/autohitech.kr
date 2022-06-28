@@ -16,3 +16,12 @@ def atw01(request):
 
 def atw02(request):
     return render(request, 'products/atw-02.html')
+
+def atges11(request):
+    return render(request, 'products/atg-es11.html')
+
+def atges12(request):
+    return render(request, 'products/atg-es12.html')
+
+def atges100(request):
+    return render(request, 'products/atg-es100.html')
