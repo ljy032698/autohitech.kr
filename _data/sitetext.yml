@@ -38,40 +38,51 @@ en: &DEFAULT_EN
     closebutton: "Close Project"
 
   timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
+    title: "연혁 및 사업분야"
+    text: ""
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "SMIoT 컨트롤러 개발 및 출시"
+        year: "2021~2022"
+        desc: "**12월** 한국GE플라스틱(주) LPC플라스틱 제조라인 DB시스템 구축 \ \n
+               **03월** (주)플래넷아이앤티 전력선 통신 프로토콜 개발
+               **02월** (주)에스에너지 태양광 모니터링시스템 전속업체 등록"
         image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+        alt: image alt text
+      - title: "스마트 컨트롤러 개발 및 출시"
+        year: "2011~2020"
+        desc: "**12월** 한국GE플라스틱(주) LPC플라스틱 제조라인 DB시스템 구축 \ \n
+               **03월** (주)플래넷아이앤티 전력선 통신 프로토콜 개발
+               **02월** (주)에스에너지 태양광 모니터링시스템 전속업체 등록"
         image: assets/img/timeline/3.jpg
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
+      - title: "회사 설립 및 베트남 진출"
+        year: "2005~2010"
+        desc: "**2005.12** 오토베이스 소프트웨어 대리점 협정체결 (판매, 기술지원, 프로젝트) \ \n
+               **2005.10** 오토테크 설립"
         image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "우리의 <br> 이야기는 <br> 계속됩니다."
 
   about:
-    title: "About Us"
+    title: "회사소개"
     text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    body: "**CUSTOMER FIRST, AND THINK OF THE CUSTOMER** \ \n
+           고객을 최우선으로 생각하고 고객을 위한 **오토하이테크(주)**입니다. \ \n\n
+           당사는 수 년 동안 자동화용 소프트웨어 및 자동화 시스템개발에서 풍부한 경험과
+           전문지식을 바탕으로 한 기술진들이 모여 여러 산업분야에서 일익을 담당하고 있습니다.
+           특히 외국기술에 의존하던 국내 자동화시스템분야에 자립도를 높이고 나아가 통합된 자동화 솔루션을 제공하고자
+           순수 국내기술로 개발된 산업자동화 소프트웨어인 'AUTOBASE'를 다수의 현장에 적용, 
+           그 우수성과 안정성 그리고 손쉬운 조작성능을 입증 받아, 이를 바탕으로 통합자동화 솔루션을 확대 공급하고 있습니다.
+           또한 사물인터넷 기반의 스마트 컨트롤러를 제작하여 산업체의 여러 장소 및 장비에 적용되어 유용하게 사용되고 있습니다.
+           특히, 스마트 공장 및 농업 자동화에 적용되어 그 편리성과 효율성이 입증되었고,  산업자동화 및 공조제어에도  적용되어 저비용으로 자동제어를 구축 할 수 있습니다.
+           앞으로 **오토하이테크(주)**는 고객이 원하는 제품을 개발하여 고객의 발전과 함께 성장하는 회사가 되도록 하겠습니다.
+           항상 아낌없는 사랑과 관심을 가져주시는 고객 여러분의 가정과 건강에 행복이 가득하시기를 기원합니다.
+           감사합니다."
     section: about
 
   clients:
@@ -93,37 +104,27 @@ en: &DEFAULT_EN
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "팀소개"
+    text: "Team"
+    subtext: ""
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
+      - name: ""
+        role: ""
         image: assets/img/team/500x500.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
+      - name: ""
+        role: ""
+        image: assets/img/team/500x500.jpg
+        social:
           - url: https://facebook.com
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
+      - name: ""
+        role: ""
         image: assets/img/team/500x500.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
           - url: https://facebook.com
             icon: fab fa-facebook-f
           - url: https://linkedin.com
@@ -145,7 +146,7 @@ en: &DEFAULT_EN
     submit: "Send Message"
 
   footer:
-    legal: "Privacy Policy"
+    legal: "개인정보취급방침"
     social:
       - url: https://twitter.com
         icon: "fab fa-twitter"
@@ -306,16 +307,12 @@ es: &DEFAULT_ES
   footer:
     legal: "Política de Privacidad"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
       - url: https://facebook.com
         icon: "fab fa-facebook-f"
       - url: https://linkedin.com
         icon: "fab fa-linkedin-in"
       - url: https://github.com/raviriley/agency-jekyll-theme
         icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
 es-ES:
   <<: *DEFAULT_ES
 es-CO:
